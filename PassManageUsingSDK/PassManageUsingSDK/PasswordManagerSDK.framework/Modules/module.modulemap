@@ -1,0 +1,11 @@
+framework module PasswordManagerSDK {
+  umbrella header "PasswordManagerSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PasswordManagerSDK.Swift {
+    header "PasswordManagerSDK-Swift.h"
+    requires objc
+}
