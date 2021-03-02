@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="53" translatesAutoresizingMaskIntoConstraints="NO" id="tEv-o7-nxF">
-                                <rect key="frame" x="157" y="371.5" width="100" height="153"/>
+                                <rect key="frame" x="157" y="320" width="100" height="256"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Xa-qA-xoO">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
@@ -39,6 +39,17 @@
                                         <state key="normal" title="Export"/>
                                         <connections>
                                             <action selector="shareButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GJz-cs-Afh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spx-Mf-Ksg">
+                                        <rect key="frame" x="0.0" y="206" width="100" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="oVo-Qg-1Qn"/>
+                                            <constraint firstAttribute="width" constant="100" id="qhc-gf-fHw"/>
+                                        </constraints>
+                                        <state key="normal" title="PrintJson"/>
+                                        <connections>
+                                            <action selector="jsonButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A0R-Ed-nVT"/>
                                         </connections>
                                     </button>
                                 </subviews>

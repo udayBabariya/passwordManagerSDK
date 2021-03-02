@@ -38,9 +38,9 @@ class ViewController: UIViewController {
         }
         
         ///check password has been updated
-        if let creds = PlistManager.fetch(){
-            print(creds.first?.password)
-        }
+//        if let creds = PlistManager.fetch(){
+//            print(creds.first?.password)
+//        }
     }
     
     
@@ -51,6 +51,18 @@ class ViewController: UIViewController {
     @IBAction func shareButtonAction(_ sender: UIButton){
         DocumentPicker.shareDocument(controller: self, fileURL: importedDocUrl)
     }
+    
+    @IBAction func jsonButtonAction(_ sender: UIButton){
+        
+        //to fetch as Dict
+//        let jsonArray = PlistManager.fetchAsDict()
+//        print(jsonArray)
+        
+        //to fetch as json
+        let jsonArray = PlistManager.fetchAsJson()
+        print(jsonArray)
+    }
+    
 }
 
 

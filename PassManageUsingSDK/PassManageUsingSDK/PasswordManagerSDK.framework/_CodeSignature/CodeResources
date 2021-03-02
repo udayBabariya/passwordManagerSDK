@@ -18,27 +18,27 @@
 		</data>
 		<key>Modules/PasswordManagerSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Te0oWJYFoOAQYVKjUJHydwgdEpg=
+		7oN4vW9s87a1rgIB3LippTpA8Ws=
 		</data>
 		<key>Modules/PasswordManagerSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		Te0oWJYFoOAQYVKjUJHydwgdEpg=
+		7oN4vW9s87a1rgIB3LippTpA8Ws=
 		</data>
 		<key>Modules/PasswordManagerSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		F76VRsSXvu3ITM61SeHdbR3mkvA=
+		xoYK8owBbDdWsBY2APv9Oy1rgD4=
 		</data>
 		<key>Modules/PasswordManagerSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		miGnbPSeYbmo24grWA7V371rVmE=
+		RKGy/ZGodESZ8TSZwpxtWqsyAVs=
 		</data>
 		<key>Modules/PasswordManagerSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		F76VRsSXvu3ITM61SeHdbR3mkvA=
+		xoYK8owBbDdWsBY2APv9Oy1rgD4=
 		</data>
 		<key>Modules/PasswordManagerSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		miGnbPSeYbmo24grWA7V371rVmE=
+		RKGy/ZGodESZ8TSZwpxtWqsyAVs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zOnHm3uT/9rHMFQmFYdxURq4gMBBf4dsqZ1EyfA94eo=
+			kj7uGFdxtyt+wYJjEsYUTg+aYMRSgTQuYJnWOCw7j1w=
 			</data>
 		</dict>
 		<key>Modules/PasswordManagerSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zOnHm3uT/9rHMFQmFYdxURq4gMBBf4dsqZ1EyfA94eo=
+			kj7uGFdxtyt+wYJjEsYUTg+aYMRSgTQuYJnWOCw7j1w=
 			</data>
 		</dict>
 		<key>Modules/PasswordManagerSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MrVzqHw1omZin/869C5mpuKRvEcsYPKFBLjW+MByPjc=
+			zo7oARNHoJKhv2YrhaNkoGvaH0jSdY5ExngFCl8BJU0=
 			</data>
 		</dict>
 		<key>Modules/PasswordManagerSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Op+yRdMwmGunu/RONUn6hqLwSINQ1HC+Q4uSvqZSt68=
+			Sia/PR3+TjH96Zvu3CLJc6LVQhqvKD3YALapNnJlSho=
 			</data>
 		</dict>
 		<key>Modules/PasswordManagerSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MrVzqHw1omZin/869C5mpuKRvEcsYPKFBLjW+MByPjc=
+			zo7oARNHoJKhv2YrhaNkoGvaH0jSdY5ExngFCl8BJU0=
 			</data>
 		</dict>
 		<key>Modules/PasswordManagerSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Op+yRdMwmGunu/RONUn6hqLwSINQ1HC+Q4uSvqZSt68=
+			Sia/PR3+TjH96Zvu3CLJc6LVQhqvKD3YALapNnJlSho=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
