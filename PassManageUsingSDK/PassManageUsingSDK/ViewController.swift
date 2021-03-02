@@ -59,8 +59,15 @@ class ViewController: UIViewController {
 //        print(jsonArray)
         
         //to fetch as json
-        let jsonArray = PlistManager.fetchAsJson()
+        let jsonArray = PlistManager.fetchAsDict()
         print(jsonArray)
+    }
+    
+    
+    @IBAction func importfromjsonString(_ sender: UIButton){
+        let string =  "{\"id\":\"A58C7117-18A1-4111-9890-A31F51140482\",\"password\":\"password\",\"domain\":\"wwww.fb.com\",\"appWebUrl\":\"\",\"userName\":\"facebook2\",\"platform\":\"facebook\",\"appPackageName\":\"\",\"appName\":\"\",\"domainName\":\"\",\"timeStamp\":\"\"}"
+        PlistManager.writeWithJsons(jsonStringArray: [string])
+        print( PlistManager.fetchAsJson())
     }
     
 }

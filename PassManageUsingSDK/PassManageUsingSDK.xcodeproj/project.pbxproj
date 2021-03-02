@@ -13,8 +13,8 @@
 		785C86E725EBA7CB0078357B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785C86E525EBA7CB0078357B /* Main.storyboard */; };
 		785C86E925EBA7CB0078357B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785C86E825EBA7CB0078357B /* Assets.xcassets */; };
 		785C86EC25EBA7CB0078357B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785C86EA25EBA7CB0078357B /* LaunchScreen.storyboard */; };
-		78A55FE525EE9FCE0098463A /* PasswordManagerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A55FE325EE9FC80098463A /* PasswordManagerSDK.framework */; };
-		78A55FE625EE9FCE0098463A /* PasswordManagerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78A55FE325EE9FC80098463A /* PasswordManagerSDK.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		78A55FE925EEA6B20098463A /* PasswordManagerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A55FE725EEA65B0098463A /* PasswordManagerSDK.framework */; };
+		78A55FEA25EEA6B20098463A /* PasswordManagerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78A55FE725EEA65B0098463A /* PasswordManagerSDK.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				78A55FE625EE9FCE0098463A /* PasswordManagerSDK.framework in Embed Frameworks */,
+				78A55FEA25EEA6B20098463A /* PasswordManagerSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,7 +40,7 @@
 		785C86E825EBA7CB0078357B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		785C86EB25EBA7CB0078357B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		785C86ED25EBA7CB0078357B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78A55FE325EE9FC80098463A /* PasswordManagerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PasswordManagerSDK.framework; sourceTree = "<group>"; };
+		78A55FE725EEA65B0098463A /* PasswordManagerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PasswordManagerSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A55FE525EE9FCE0098463A /* PasswordManagerSDK.framework in Frameworks */,
+				78A55FE925EEA6B20098463A /* PasswordManagerSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 		785C86DE25EBA7CB0078357B /* PassManageUsingSDK */ = {
 			isa = PBXGroup;
 			children = (
-				78A55FE325EE9FC80098463A /* PasswordManagerSDK.framework */,
+				78A55FE725EEA65B0098463A /* PasswordManagerSDK.framework */,
 				785C86DF25EBA7CB0078357B /* AppDelegate.swift */,
 				785C86E125EBA7CB0078357B /* SceneDelegate.swift */,
 				785C86E325EBA7CB0078357B /* ViewController.swift */,
