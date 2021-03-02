@@ -12,6 +12,9 @@ import UniformTypeIdentifiers
 class ViewController: UIViewController {
     
     @IBOutlet weak var importButton: UIButton!
+    @IBOutlet weak var exportButton: UIButton!
+    
+    var importedDocUrl: URL = URL(string: "www.google.com")!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +47,10 @@ class ViewController: UIViewController {
     @IBAction func importButtonAction(_ sender: UIButton){
         DocumentPicker.openDocumentPicker(controller: self, delegate: self)
     }
+    
+    @IBAction func shareButtonAction(_ sender: UIButton){
+        DocumentPicker.shareDocument(controller: self, fileURL: importedDocUrl)
+    }
 }
 
 
@@ -53,6 +60,7 @@ extension ViewController: UIDocumentPickerDelegate{
     func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
         
         guard controller.documentPickerMode == .import, let url = urls.first else { return }
+        self.importedDocUrl = url
         if let strData = try? String(contentsOf: url) {
             /// get data of document in terms of string
             print(strData)
