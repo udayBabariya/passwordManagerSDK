@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7840B60025EDC0CE00EF944A /* PasswordManagerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7840B5FE25EDBF1800EF944A /* PasswordManagerSDK.framework */; };
+		7840B60125EDC0CE00EF944A /* PasswordManagerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7840B5FE25EDBF1800EF944A /* PasswordManagerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		785C86E025EBA7CB0078357B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785C86DF25EBA7CB0078357B /* AppDelegate.swift */; };
 		785C86E225EBA7CB0078357B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785C86E125EBA7CB0078357B /* SceneDelegate.swift */; };
 		785C86E425EBA7CB0078357B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785C86E325EBA7CB0078357B /* ViewController.swift */; };
 		785C86E725EBA7CB0078357B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785C86E525EBA7CB0078357B /* Main.storyboard */; };
 		785C86E925EBA7CB0078357B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785C86E825EBA7CB0078357B /* Assets.xcassets */; };
 		785C86EC25EBA7CB0078357B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785C86EA25EBA7CB0078357B /* LaunchScreen.storyboard */; };
-		785C870F25EBAD060078357B /* PasswordManagerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785C870D25EBAC5D0078357B /* PasswordManagerSDK.framework */; };
-		785C871025EBAD060078357B /* PasswordManagerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 785C870D25EBAC5D0078357B /* PasswordManagerSDK.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				785C871025EBAD060078357B /* PasswordManagerSDK.framework in Embed Frameworks */,
+				7840B60125EDC0CE00EF944A /* PasswordManagerSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7840B5FE25EDBF1800EF944A /* PasswordManagerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PasswordManagerSDK.framework; sourceTree = "<group>"; };
 		785C86DC25EBA7CB0078357B /* PassManageUsingSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassManageUsingSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		785C86DF25EBA7CB0078357B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		785C86E125EBA7CB0078357B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		785C86E825EBA7CB0078357B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		785C86EB25EBA7CB0078357B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		785C86ED25EBA7CB0078357B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		785C870D25EBAC5D0078357B /* PasswordManagerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PasswordManagerSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				785C870F25EBAD060078357B /* PasswordManagerSDK.framework in Frameworks */,
+				7840B60025EDC0CE00EF944A /* PasswordManagerSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 		785C86DE25EBA7CB0078357B /* PassManageUsingSDK */ = {
 			isa = PBXGroup;
 			children = (
-				785C870D25EBAC5D0078357B /* PasswordManagerSDK.framework */,
+				7840B5FE25EDBF1800EF944A /* PasswordManagerSDK.framework */,
 				785C86DF25EBA7CB0078357B /* AppDelegate.swift */,
 				785C86E125EBA7CB0078357B /* SceneDelegate.swift */,
 				785C86E325EBA7CB0078357B /* ViewController.swift */,

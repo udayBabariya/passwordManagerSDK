@@ -7,8 +7,11 @@
 
 import UIKit
 import PasswordManagerSDK
+import UniformTypeIdentifiers
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var importButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,10 +38,25 @@ class ViewController: UIViewController {
         if let creds = PlistManager.fetch(){
             print(creds.first?.password)
         }
-        
-        
     }
-
-
+    
+    
+    @IBAction func importButtonAction(_ sender: UIButton){
+        DocumentPicker.openDocumentPicker(controller: self, delegate: self)
+    }
 }
 
+
+///MARK: - document picker
+extension ViewController: UIDocumentPickerDelegate{
+    
+    func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
+        
+        guard controller.documentPickerMode == .import, let url = urls.first else { return }
+        if let strData = try? String(contentsOf: url) {
+            /// get data of document in terms of string
+            print(strData)
+        }
+        controller.dismiss(animated: true)
+    }
+}
